@@ -1,0 +1,62 @@
+:root{
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 30px;
+    background-color: rgba(105, 105, 105, 0.452);
+}
+
+.title{
+    margin: 30px;
+}
+
+input{
+    margin: 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgb(170, 170, 170);
+    width: 300px;
+    height: 25px;
+
+}
+input:hover{
+    background-color: rgb(250, 250, 250);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+ul,li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.filtro {
+    display: none;
+}
+
+button{
+    margin: 20px;
+    background-color: rgb(13, 122, 185);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+button.agregar{
+    background-color: rgb(1, 104, 163);
+}
+button.eliminar{
+    background-color: rgb(207, 2, 2);
+}
+button.cancelar{
+    background-color: rgb(255, 0, 0);
+}
+button.cerrar{
+    background-color: rgb(255, 0, 0);
+}
