@@ -16,6 +16,7 @@ const agregar = document.getElementById('agregar');
 const eliminar = document.getElementById('eliminar');
 const buscar = document.getElementById('buscador');
 const cancelar = document.getElementById('cancelar');
+const cerrar = document.getElementById('cerrar');
 
 // Función para agregar un color
 agregar.addEventListener('click', () => {
@@ -86,3 +87,12 @@ data.forEach(color => {
     li.textContent = color;
     listaColores.appendChild(li);
 });
+
+cerrar.addEventListener('click', function(){
+    const cerrarPagina = confirm('Seguro que deseas cerrar la pagina?')
+    if(cerrarPagina){
+        window.close();
+    } else {
+        alert('No se ha cerrado la pagina.')
+    }
+})

@@ -1,4 +1,7 @@
 
+
+
+
 // const data = [
 //     'Rojo',
 //     'Azul',
@@ -43,7 +46,7 @@
 //     alert('se ha agregado el color nuevo')
 //     } else {
 //         buscador.value = '';
-//         document.querySelectorAll('.color').forEach(color => color.classList.remove('filtro'));
+//         document.querySelectorAll('.color').forEach(color => color.clas.remove('filtro'));
 //         alert('El color ya existe')
 //     }
 // });
@@ -58,7 +61,14 @@
 //     }
 // );
 
-
+// cerrar.addEventListener('click', function(){
+//     const confirmar = confirm('Seguro que quieres cerrar ?');
+//     if(confirmar){
+//         window.close()
+//     } else{
+//         alert('no se ha cerrado el navegador');
+//     }
+// });
 
 // cancelar.addEventListener('click', function(){
 //     const limpiar = document.getElementById('buscador');
